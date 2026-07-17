@@ -36,12 +36,12 @@ def predict():
 
     # Prediction
     prediction = model.predict(data)[0]
-
+    print("Prediction:", prediction)
     # Probability
-    probabilities = model.predict_proba(data)[0][1]
+    probabilities = model.predict_proba(data)
     print(probabilities)
 
-    flood_probability = probabilities[0][1] * 100
+    flood_probability = probabilities[0][1] * 100      
     no_flood_probability = probabilities[0][0] * 100
 
     if prediction == 1:
