@@ -123,7 +123,7 @@ Random Forest was selected because it provided the best performance on the datas
 Clone the repository
 
 ```bash
-git clone https://github.com/yourusername/Rising-Waters.git
+git clone https://github.com/Navyasri2028/Rising-Waters.git
 ```
 
 Move into project folder
